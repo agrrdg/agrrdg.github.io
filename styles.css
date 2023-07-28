@@ -1,10 +1,9 @@
 body {
-    margin: 0;
-    background: lightblue;
+    background: white;
 }
 
 .navigation-bar {
     background-color: #0B2447;
-    height: 10%;
+    height: 8%;
     width: 100%;
 }
