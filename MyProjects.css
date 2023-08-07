@@ -1,5 +1,5 @@
 body {
-    background-image: url('background_img.PNG');
+    background-image: linear-gradient(#19A7CE,#AFD3E2,#AFD3E2);;
     margin: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -7,101 +7,102 @@ body {
 
 /* Title Header */
 .titleBar {
-    display: flex;
-    top: 0;
-    position: fixed;
-    background-color: #D8F7FF;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
+  display: flex;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
 .titleA {
-    margin-left: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    color: #000249;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
 .titleB {
-    margin-right: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    color: #000249;
+  margin-right: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
 /* Bottom Navigation Bar */
 .navigationBar {
-    bottom: 0;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
 .buttonA {
-    display: flex;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    background-color: #000249;
-    color: #D8F7FF;
-    text-decoration: none;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  text-decoration: none;
 }
 
 .buttonB {
-    display: flex;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    background-color: #D8F7FF;
-    color: #000249;
-    text-decoration: none;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color: #146C94;
+  color: white;
+  text-decoration: none;
 }
 
 .buttonC {
-    display: flex;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    background-color: #000249;
-    color: #D8F7FF;
-    text-decoration: none;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  text-decoration: none;
 }
 
 .buttonA:hover:not(.active) {
-  background-color: #D8F7FF;
-  color: #000249;
-  text-decoration: none;
+background-color: #146C94;
+color: white;
+text-decoration: none;
 }
 
 .buttonB:hover:not(.active) {
-  background-color: #D8F7FF;
-  color: #000249;
-  text-decoration: none;
+background-color: #146C94;
+color: white;
+text-decoration: none;
 }
 
 .buttonC:hover:not(.active) {
-  background-color: #D8F7FF;
-  color: #000249;
-  text-decoration: none;
+background-color: #146C94;
+color: white;
+text-decoration: none;
 }
 
 .active {
-  background-color: #D8F7FF;
-  color: #000249;
+background-color: #146C94;
+color: white;
 }
 
 /* My Projects */
@@ -112,24 +113,71 @@ body {
   width: fit-content;
   font-size: 40px;
   font-family: 'Roboto', sans-serif;
-  color: #000249;
-  border-right: 6px solid #FFCF58;
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
+  color: white;
+  border-right: 6px solid #146C94;
 }
 
 .projectA {
   width: 100%;
-  height: 100%;
+  height: 600px;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
-  border-style: solid;
-  border-width: px;
-  border-color: red;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  margin-bottom: 10px;
 }
 
-.projectAOuter {
+.projectB {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  margin-bottom: 10px;
+}
+
+.projectC {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  margin-bottom: 10px;
+}
+
+.projectD {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  margin-bottom: 10px;
+}
+
+.projectE {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  margin-bottom: 10px;
+}
+
+.projectF {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  margin-bottom: 100px;
+}
+
+/* .projectAOuter {
   width: 100%;
   height: 600px;
   margin-left: 200px;
@@ -148,7 +196,7 @@ body {
   margin-bottom: 30px;
   background-color: #000249;
   border-radius: 10px;
-}
+} */
 
 /* 
   border-style: solid;
