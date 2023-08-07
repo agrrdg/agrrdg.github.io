@@ -1,7 +1,7 @@
 body {
     background-color: white;
     margin: 0;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -110,7 +110,8 @@ body {
   display: flex;
   width: 100%;
   height: 900px;
-  background-image: linear-gradient(#19A7CE,#AFD3E2,#AFD3E2);
+  background-image: url('background_img.PNG');
+  /* background-image: linear-gradient(#19A7CE,#AFD3E2,#AFD3E2); */
   display: flex;
   justify-content: center;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -150,7 +151,7 @@ body {
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
   font-size: 75px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .introductionB {
@@ -171,19 +172,19 @@ body {
 }
 
 .fa-envelope:hover {
-  color: #19A7CE !important;
-  border-bottom: 4px solid #19A7CE;
+  color: white !important;
+  border-bottom: 4px solid white;
   text-decoration: none; 
 }
 
 .fa-github-square:hover {
-  color: #19A7CE !important;
-  border-bottom: 4px solid #19A7CE;
+  color: white !important;
+  border-bottom: 4px solid white;
 }
 
 .fa-linkedin-square:hover {
-  color: #19A7CE !important;
-  border-bottom: 4px solid #19A7CE;
+  color: white !important;
+  border-bottom: 4px solid white;
 }
 
 .aboutMeB {
@@ -192,6 +193,7 @@ body {
 }
 
 .aboutMeC {
+
   /* flex-grow: 4; */
   height: 75vh;
   margin-right: 200px;
