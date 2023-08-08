@@ -1,8 +1,8 @@
 body {
   background-image: linear-gradient(#19A7CE,#AFD3E2,#AFD3E2);
-    margin: 0;
-    background-size: cover;
-    background-attachment: fixed;
+  margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Title Header */
