@@ -338,6 +338,70 @@ body {
   }
 }
 
+
+@media screen and (max-width: 600px) {
+  .aboutMe1 {
+    height: 700px; 
+  }
+
+  .introductionA {
+    margin-top: 170px;
+    margin-left: 60px;
+  }
+
+  .introductionB {
+    display: none;
+  }
+
+  .introductionC {
+    margin-top: 10px;
+    width: 400px;
+    height: 150px;
+    margin-left: 60px;
+  }
+
+  .aboutMe2 {
+    flex-direction: column;
+    height: 1200px;
+    justify-content: unset;
+  }
+
+  .aboutMeC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .imgContainer {
+    margin-top: 0px;
+  }
+
+  .aboutMeD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 0px;
+  }
+
+  .headerText {
+    margin-top: 0px;
+  }
+
+  .socialMediaLinks {
+    display: flex;
+    width: 1200px;
+    margin-left: 60px;
+  }
+
+  .descriptionText {
+    width: 400px;
+  }
+}
+
 /* 
   border-style: solid;
   border-width: 2px;
