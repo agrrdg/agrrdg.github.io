@@ -108,45 +108,34 @@ body {
 /* About Me */
 .aboutMe1 {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 900px;
   background-image: url('background_img.PNG');
   /* background-image: linear-gradient(#19A7CE,#AFD3E2,#AFD3E2); */
-  display: flex;
-  justify-content: center;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .aboutMe2 {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   width: 100%;
   height: 80vh;
-  /* background-color: whitesmoke;
-  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-  padding: 10rem 5%; */
 }
 
 .aboutMeA {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   width: 80%;
   height: 100vh;
 }
 
-/* .introductionContainer {
-  margin-top: 200px;
-  height: 180px;
-  width: 400px;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
 .introductionA {
-  margin-top: 200px;
+  margin-top: 225px;
+  margin-bottom: 0px;
   margin-left: 100px;
-  height: 180px;
+  height: 100px;
   width: 1200px;
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
@@ -155,9 +144,19 @@ body {
 }
 
 .introductionB {
+  margin-left: 100px;
+  margin-top: 0px;
+  height: 100px;
+  width: 1200px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+}
+
+.introductionC {
   margin-top: -30px;
   margin-left: 100px;
-  /* height: 180px; */
   width: 1200px;
   font-family: 'Lexend', sans-serif;
   font-weight: 600;
@@ -188,31 +187,20 @@ body {
 }
 
 .aboutMeB {
-  width: 25%;
+  width: 20%;
   height: 100vh;
+  margin-top: 250px;
 }
 
 .aboutMeC {
-
-  /* flex-grow: 4; */
   height: 75vh;
-  margin-right: 200px;
+  padding: 10px;
+  margin-right: 100px;
 }
 
 .imgContainer {
   display: flex; 
   margin-top: 30px;
-  justify-content: center;
-}
-
-.imgFrame {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-color: #AFD3E2;
-  padding-top: 6px;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-bottom: 2px;
 }
 
 .profileImg {
@@ -223,32 +211,40 @@ body {
   border-style: solid;
   border-width: 3px;
   border-color: #146C94;
+  background-color: #AFD3E2;
 } 
-
 .aboutMeD {
-  /* flex-grow: 6; */
+  display: flex;
+  justify-content: center;
   height: 75vh;
 }
 
-.headerContainer {
+.aboutMeDContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .headerContainer {
   display: flex;
   block-size: fit-content; 
   margin-top: 40px;
   justify-content: center;
-}
+} */
 
 .headerText {
-  block-size: fit-content; 
   font-size: 40px;
   font-family: 'Outfit', sans-serif;
   color: black;
   border-bottom: 6px solid #19A7CE;
+  margin-top: 80px;
+  margin-bottom: 0px;
 }
 
-.descriptionContainer {
+/* .descriptionContainer {
   display: flex;
   justify-content: center;
-}
+} */
 
 .descriptionText {
   display: flex;
@@ -257,13 +253,15 @@ body {
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  margin-top: 60px;
+  margin-bottom: 0px;
 }
 
-.curriculumVitae {
+/* .curriculumVitae {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
+} */
 
 .cvButton {
   display: flex;
@@ -279,11 +277,65 @@ body {
   border: 3px solid #19A7CE;
   background-color: white;
   transition-duration: 0.4s;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .cvButton:hover {
   background-color: #19A7CE; 
   color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  .aboutMeC {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .introductionA {
+    margin-top: 250px;
+  }
+  .introductionB {
+    display: none;
+  }
+
+  .introductionC {
+    margin-top: 10px;
+    width: 600px;
+    height: 150px;
+  }
+
+  .aboutMe2 {
+    flex-direction: column;
+    height: 1200px;
+    justify-content: unset;
+  }
+
+  .aboutMeC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .imgContainer {
+    margin-top: 0px;
+  }
+
+  .aboutMeD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 0px;
+  }
+
+  .headerText {
+    margin-top: 0px;
+  }
 }
 
 /* 
