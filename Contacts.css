@@ -138,7 +138,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: whitesmoke;
+  background-color: white;
   width: 80%;
   height: 65vh;
   border-top-right-radius: 10px;
@@ -164,6 +164,7 @@ body {
   border-bottom: 6px solid #19A7CE;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .contactsText2 {
@@ -184,18 +185,8 @@ body {
   border-bottom: 6px solid #19A7CE;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-shadow: 3px 3px #c6c6c6;
 }
-
-/* .contactsText4 {
-  display: flex;
-  text-align: justify;
-  font-size: 20px;
-  font-family: 'Lexend', sans-serif;
-  color: black;
-  margin-top: 40px;
-  margin-bottom: 0px;
-  line-height: 1.6;
-} */
 
 .contacts2 {
   display: flex;

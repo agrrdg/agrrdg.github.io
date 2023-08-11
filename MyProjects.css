@@ -121,7 +121,7 @@ color: white;
 .projectAContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   align-items: center;
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
@@ -154,11 +154,13 @@ color: white;
   height: 300px;
   margin-bottom: 20px;
   border-radius: 10px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .cosmicGame {
   height: 300px;
   border-radius: 10px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .projectA2 {
@@ -176,13 +178,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px; 
+  margin-bottom: 20px; 
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .cosmicDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -192,27 +195,43 @@ color: white;
 
 .cosmicSub{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 600px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .cosmicHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.cosmicHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .cosmicLight{
   display: flex;
-  font-size: 20px;
+  height: 30px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -221,7 +240,7 @@ color: white;
 .projectBContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,11 +274,13 @@ color: white;
   height: 600px;
   border-radius: 10px;
   margin-right: 20px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .hearGame {
   height: 600px;
   border-radius: 10px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .projectB2 {
@@ -276,13 +297,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .hearDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -292,36 +314,53 @@ color: white;
 
 .hearSub{
   display: flex;
-  flex-direction: row;
-  width: 500px;
-  margin-top: 20px;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 30px;
 }
 
 .hearHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.hearHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .hearLight{
   display: flex;
-  font-size: 20px;
+  height: 30px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 /* Project C */
 .projectCContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   align-items: center;
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
@@ -355,11 +394,13 @@ color: white;
   height: 600px;
   border-radius: 10px;
   margin-right: 20px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .piggyGame {
   height: 600px;
   border-radius: 10px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .projectC2 {
@@ -377,13 +418,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .piggyDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -393,36 +435,53 @@ color: white;
 
 .piggySub{
   display: flex;
-  flex-direction: row;
-  width: 500px;
-  margin-top: 20px;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 30px;
 }
 
 .piggyHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.piggyHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .piggyLight{
   display: flex;
-  font-size: 20px;
+  height: 30px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 /* Project D */
 .projectDContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,11 +514,13 @@ color: white;
   height: 300px;
   margin-bottom: 20px;
   border-radius: 10px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .byteGame {
   height: 300px;
   border-radius: 10px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .projectD2 {
@@ -476,13 +537,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .byteDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -492,36 +554,52 @@ color: white;
 
 .byteSub{
   display: flex;
-  flex-direction: row;
-  width: 500px;
-  margin-top: 20px;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 30px;
 }
 
 .byteHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.byteHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .byteLight{
   display: flex;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
+
 
 /* Project E */
 .projectEContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   align-items: center;
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
@@ -555,11 +633,13 @@ color: white;
   height: 600px;
   border-radius: 10px;
   margin-right: 20px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .sctapGame {
   height: 600px;
   border-radius: 10px;
+  box-shadow: -5px 5px 4px #888888;
 } 
 
 .projectE2 {
@@ -577,13 +657,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .sctapDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -593,36 +674,53 @@ color: white;
 
 .sctapSub{
   display: flex;
-  flex-direction: row;
-  width: 500px;
-  margin-top: 20px;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 30px;
 }
 
 .sctapHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.sctapHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .sctapLight{
   display: flex;
-  font-size: 20px;
+  height: 30px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 /* Project F */
 .projectFContainer {
   width: 100%;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -657,11 +755,13 @@ color: white;
   height: 600px;
   border-radius: 10px;
   margin-right: 20px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .handogGame {
   height: 600px;
   border-radius: 10px;
+  box-shadow: 5px 5px 4px #888888;
 } 
 
 .projectF2 {
@@ -678,13 +778,14 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #c6c6c6;
 }
 
 .handogDescription{
   display: flex;
   text-align: justify;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -694,32 +795,49 @@ color: white;
 
 .handogSub{
   display: flex;
-  flex-direction: row;
-  width: 500px;
-  margin-top: 20px;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 30px;
 }
 
 .handogHeavy{
   display: flex;
-  font-size: 20px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600; 
-  color: black;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #19A7CE;
+  transition-duration: 0.4s;
+}
+
+.handogHeavy:hover {
+  border: 2px solid #19A7CE;
+  background-color: white;
+  color: #19A7CE;
 }
 
 .handogLight{
   display: flex;
-  font-size: 20px;
+  height: 30px;
+  font-size: 22px;
   font-family: 'Lexend', sans-serif;
   color: black;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 1300px) {
+
+@media screen and (max-width: 1500px) {
   .projectA2 {
     margin-left: 50px;
   }
@@ -753,7 +871,7 @@ color: white;
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .projectAContainer {
     height: 1400px;
   }
