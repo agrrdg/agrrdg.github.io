@@ -166,7 +166,7 @@ body {
 .socialMediaLinks {
   display: flex;
   width: 1200px;
-  margin-left: 100px;
+  margin-left: 105px;
 }
 
 .fa-envelope:hover {
@@ -232,7 +232,7 @@ body {
 } */
 
 .headerText {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Outfit', sans-serif;
   color: black;
   border-bottom: 6px solid #19A7CE;

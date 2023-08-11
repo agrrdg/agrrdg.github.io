@@ -111,7 +111,7 @@ color: white;
   margin-left: 100px;
   padding-right: 15px;
   width: fit-content;
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Outfit', sans-serif;
   color: white;
   border-right: 6px solid #146C94;
@@ -176,13 +176,40 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px; 
+  margin-bottom: 60px; 
 }
 
 .cosmicDescription{
   display: flex;
   text-align: justify;
   width: 500px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cosmicSub{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.cosmicHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.cosmicLight{
+  display: flex;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -214,7 +241,7 @@ color: white;
   height: 700px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .imgContainerHear {
@@ -249,13 +276,40 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .hearDescription{
   display: flex;
   text-align: justify;
   width: 500px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hearSub{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.hearHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.hearLight{
+  display: flex;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -323,13 +377,40 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .piggyDescription{
   display: flex;
   text-align: justify;
   width: 500px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.piggySub{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.piggyHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.piggyLight{
+  display: flex;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -395,7 +476,7 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .byteDescription{
@@ -407,6 +488,33 @@ color: white;
   color: black;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.byteSub{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.byteHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.byteLight{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px; 
 }
 
 /* Project E */
@@ -469,13 +577,40 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .sctapDescription{
   display: flex;
   text-align: justify;
   width: 500px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sctapSub{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.sctapHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.sctapLight{
+  display: flex;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -543,13 +678,40 @@ color: white;
   border-bottom: 6px solid #19A7CE;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .handogDescription{
   display: flex;
   text-align: justify;
   width: 500px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.handogSub{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.handogHeavy{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600; 
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.handogLight{
+  display: flex;
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   color: black;
@@ -593,7 +755,7 @@ color: white;
 
 @media screen and (max-width: 1150px) {
   .projectAContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectA {
@@ -606,7 +768,7 @@ color: white;
   }
 
   .projectBContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectB {
@@ -619,7 +781,7 @@ color: white;
   }
 
   .projectCContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectC {
@@ -631,9 +793,8 @@ color: white;
     margin-top: 70px;
   }
 
-
   .projectDContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectD {
@@ -646,7 +807,7 @@ color: white;
   }
 
   .projectEContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectE {
@@ -659,7 +820,7 @@ color: white;
   }
 
   .projectFContainer {
-    height: 1300px;
+    height: 1400px;
   }
 
   .projectF {
@@ -669,6 +830,304 @@ color: white;
   .projectF2 {
     margin-left: 0px;
     margin-top: 70px;
+  }
+
+  .cosmicHeader {
+    margin-bottom: 40px; 
+  }
+
+  .hearHeader {
+    margin-bottom: 40px; 
+  }
+
+  .piggyHeader {
+    margin-bottom: 40px; 
+  }
+
+  .byteHeader {
+    margin-bottom: 40px; 
+  }
+
+  .sctapHeader {
+    margin-bottom: 40px; 
+  }
+
+  .handogHeader {
+    margin-bottom: 40px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerText {
+    margin-left: 50px;
+    padding-right: 15px;
+    width: fit-content;
+    font-size: 60px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    border-right: 6px solid #146C94;
+  }
+
+  /* Cosmic Invaders */
+  .projectAContainer {
+    height: 1100px;
+  }
+
+  .projectA2 {
+    margin-top: 50px;
+  }
+
+  .imgContainerCosmic {
+    align-items: center;
+  }
+    
+  .cosmicMenu {
+    height: unset;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  } 
+  
+  .cosmicGame {
+    height: unset;
+    width: 400px;
+    border-radius: 10px;
+  } 
+
+  .projectAText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cosmicSub {
+    display: none;
+  }
+
+  .cosmicHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .cosmicDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Hear Me Out */
+  .projectBContainer {
+    height: 1100px;
+  }
+
+  .projectB2 {
+    margin-top: 50px;
+  }
+
+  .projectB2 {
+    margin-top: 50px;
+  }
+
+  .hearMenu {
+    height: 500px;
+  }
+
+  .projectBText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hearSub {
+    display: none;
+  }
+
+  .hearHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .hearDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Piggy Plan */
+  .projectCContainer {
+    height: 1100px;
+  }
+
+  .projectC2 {
+    margin-top: 50px;
+  }
+
+  .piggyMenu {
+    height: 500px;
+  }
+
+  .projectCText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .piggySub {
+    display: none;
+  }
+
+  .piggyHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .piggyDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Best Byte */
+  .projectDContainer {
+    height: 1100px;
+  }
+
+  .projectD2 {
+    margin-top: 50px;
+  }
+
+  .imgContainerByte {
+    align-items: center;
+  }
+    
+  .byteMenu {
+    height: unset;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  } 
+  
+  .byteGame {
+    height: unset;
+    width: 400px;
+    border-radius: 10px;
+  } 
+
+  .projectDText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .byteSub {
+    display: none;
+  }
+
+  .byteHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .byteDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* SCTap */
+  .projectEContainer {
+    height: 1100px;
+  }
+
+  .projectE2 {
+    margin-top: 50px;
+  }
+
+  .sctapMenu {
+    height: 500px;
+    margin-right: unset;
+  }
+
+  .sctapGame {
+    display: none;
+  }
+
+  .projectEText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sctapSub {
+    display: none;
+  }
+
+  .sctapHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .sctapDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Handog */
+  .projectFContainer {
+    height: 1100px;
+  }
+
+  .projectF2 {
+    margin-top: 50px;
+  }
+
+  .handogMenu {
+    height: 500px;
+    margin-right: unset;
+  }
+
+  .handogGame {
+    display: none;
+  }
+
+  .projectFText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .handogSub {
+    display: none;
+  }
+
+  .handogHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .handogDescription{
+    font-size: 20px;
+    width: 400px;
   }
 }
 
