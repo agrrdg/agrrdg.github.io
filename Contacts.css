@@ -400,11 +400,11 @@ body {
 
 @media screen and (max-width: 500px) {
   .contactsContainer {
-    height: 125vh;
+    height: 127vh;
   }
 
   .contacts1 {
-    height: 675px;
+    height: 625px;
     width: 300px;
     margin-bottom: 20px;
   }
@@ -412,6 +412,15 @@ body {
   .contacts2 {
     height: 325;
     width: 300px;
+  }
+
+  .contactsText1 {
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .contactsText3 {
+    font-size: 40px;
   }
 
   .socialMediaLinks {

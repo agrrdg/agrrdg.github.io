@@ -542,7 +542,7 @@ body {
     font-size: 50px;
     width: 300px;
     height: unset;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 150px;
   }
 
@@ -552,16 +552,15 @@ body {
 
   .introductionC {
     font-size: 30px;
-    width: 300px;
-    width: 300px;
+    width: 250px;
     height: unset;
-    margin-left: 80px;
+    margin-left: 50px;
   }
 
   .socialMediaLinks {
     width: 300px;
     margin-left: 60px;
-    margin-left: 82px;
+    margin-left: 52px;
   }
 
   .aboutMe2 {
