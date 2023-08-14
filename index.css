@@ -544,9 +544,6 @@ body {
     height: unset;
     margin-left: 80px;
     margin-top: 150px;
-    border-style: solid;
-  border-width: 2px;
-  border-color: red; 
   }
 
   .introductionB {
@@ -559,18 +556,12 @@ body {
     width: 300px;
     height: unset;
     margin-left: 80px;
-    border-style: solid;
-  border-width: 2px;
-  border-color: red; 
   }
 
   .socialMediaLinks {
     width: 300px;
     margin-left: 60px;
     margin-left: 82px;
-    border-style: solid;
-  border-width: 2px;
-  border-color: red; 
   }
 
   .aboutMe2 {
