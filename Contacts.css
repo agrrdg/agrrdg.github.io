@@ -124,9 +124,6 @@ body {
   font-family: 'Outfit', sans-serif;
   color: white;
   border-left: 6px solid #146C94;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: red; */
 }
 
 .contactBody {
@@ -398,6 +395,43 @@ body {
 
   .socialMediaLinks {
     margin-left: unset;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactsContainer {
+    height: 130vh;
+  }
+
+  .contacts1 {
+    height: 675px;
+    width: 300px;
+  }
+
+  .contacts2 {
+    height: 325;
+    width: 300px;
+  }
+
+  .socialMediaLinks {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .emailText {
+    font-size: 15px;
+    margin-left: -24px;
+  }
+
+  .linkedText {
+    font-size: 16px;
+    margin-left: -20px;
+  }
+
+  .githubText {
+    font-size: 16px;
+    margin-left: -20px;
   }
 }
 

@@ -221,6 +221,7 @@ body {
   border-color: #146C94;
   background-color: #AFD3E2;
 } 
+
 .aboutMeD {
   display: flex;
   justify-content: center;
@@ -468,7 +469,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 600px) {
   .aboutMe1 {
     height: 700px; 
@@ -530,7 +530,83 @@ body {
   .descriptionText {
     width: 400px;
     font-size: 16px;
+  }
+}
 
+@media screen and (max-width: 500px) {
+  .aboutMe1 {
+    height: 570px;
+  }
+
+  .introductionA {
+    font-size: 50px;
+    width: unset;
+    height: unset;
+    margin-left: 110px;
+  }
+
+  .introductionB {
+    display: none;
+  }
+
+  .introductionC {
+    font-size: 30px;
+    width: unset;
+    height: unset;
+    margin-left: 110px;
+  }
+
+  .socialMediaLinks {
+    width: 350px;
+    margin-left: 60px;
+    margin-left: 112px;
+  }
+
+  .aboutMe2 {
+    flex-direction: column;
+    height: 1250px;
+    justify-content: unset;
+  }
+
+  .aboutMeC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .imgContainer {
+    margin-top: 0px;
+  }
+
+  .profileImg {
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #146C94;
+    background-color: #AFD3E2;
+  } 
+
+  .aboutMeD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    padding: 0px;
+  }
+
+  .headerText {
+    margin-top: 0px;
+  }
+
+  .descriptionText {
+    width: 300px;
+    font-size: 16px;
   }
 }
 
