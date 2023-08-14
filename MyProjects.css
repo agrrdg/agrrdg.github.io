@@ -1249,6 +1249,275 @@ color: white;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .headerText {
+    margin-left: 40px;
+    font-size: 50px;
+  }
+
+  /* Cosmic Invaders */
+  .projectAContainer {
+    height: 1200px;
+  }
+
+  .projectA2 {
+    margin-top: 50px;
+  }
+
+  .imgContainerCosmic {
+    align-items: center;
+  }
+    
+  .cosmicMenu {
+    height: unset;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  } 
+  
+  .cosmicGame {
+    height: unset;
+    width: 350px;
+    border-radius: 10px;
+  } 
+
+  .projectAText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cosmicSub {
+    display: none;
+  }
+
+  .cosmicHeader {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .cosmicDescription{
+    font-size: 20px;
+    width: 350px;
+  }
+
+  /* Hear Me Out */
+  .projectBContainer {
+    height: 1100px;
+  }
+
+  .projectB2 {
+    margin-top: 50px;
+  }
+
+  .projectB2 {
+    margin-top: 50px;
+  }
+
+  .hearMenu {
+    height: 500px;
+  }
+
+  .projectBText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hearSub {
+    display: none;
+  }
+
+  .hearHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .hearDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Piggy Plan */
+  .projectCContainer {
+    height: 1100px;
+  }
+
+  .projectC2 {
+    margin-top: 50px;
+  }
+
+  .piggyMenu {
+    height: 500px;
+  }
+
+  .projectCText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .piggySub {
+    display: none;
+  }
+
+  .piggyHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .piggyDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Best Byte */
+  .projectDContainer {
+    height: 1100px;
+  }
+
+  .projectD2 {
+    margin-top: 50px;
+  }
+
+  .imgContainerByte {
+    align-items: center;
+  }
+    
+  .byteMenu {
+    height: unset;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  } 
+  
+  .byteGame {
+    height: unset;
+    width: 400px;
+    border-radius: 10px;
+  } 
+
+  .projectDText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .byteSub {
+    display: none;
+  }
+
+  .byteHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .byteDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* SCTap */
+  .projectEContainer {
+    height: 1100px;
+  }
+
+  .projectE2 {
+    margin-top: 50px;
+  }
+
+  .sctapMenu {
+    height: 500px;
+    margin-right: unset;
+  }
+
+  .sctapGame {
+    display: none;
+  }
+
+  .projectEText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sctapSub {
+    display: none;
+  }
+
+  .sctapHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .sctapDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  /* Handog */
+  .projectFContainer {
+    height: 1100px;
+  }
+
+  .projectF2 {
+    margin-top: 50px;
+  }
+
+  .handogMenu {
+    height: 500px;
+    margin-right: unset;
+  }
+
+  .handogGame {
+    display: none;
+  }
+
+  .projectFText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .handogSub {
+    display: none;
+  }
+
+  .handogHeader {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .handogDescription{
+    font-size: 20px;
+    width: 400px;
+  }
+}
+
 /* 
   border-style: solid;
   border-width: 2px;
