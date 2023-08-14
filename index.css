@@ -535,14 +535,18 @@ body {
 
 @media screen and (max-width: 500px) {
   .aboutMe1 {
-    height: 570px;
+    height: 600px;
   }
 
   .introductionA {
     font-size: 50px;
-    width: unset;
+    width: 300px;
     height: unset;
-    margin-left: 110px;
+    margin-left: 80px;
+    margin-top: 150px;
+    border-style: solid;
+  border-width: 2px;
+  border-color: red; 
   }
 
   .introductionB {
@@ -551,15 +555,22 @@ body {
 
   .introductionC {
     font-size: 30px;
-    width: unset;
+    width: 300px;
+    width: 300px;
     height: unset;
-    margin-left: 110px;
+    margin-left: 80px;
+    border-style: solid;
+  border-width: 2px;
+  border-color: red; 
   }
 
   .socialMediaLinks {
-    width: 350px;
+    width: 300px;
     margin-left: 60px;
-    margin-left: 112px;
+    margin-left: 82px;
+    border-style: solid;
+  border-width: 2px;
+  border-color: red; 
   }
 
   .aboutMe2 {
