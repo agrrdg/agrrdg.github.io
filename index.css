@@ -353,6 +353,10 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+  .aboutMe1 {
+    height: 800px; 
+  }
+
   .introductionA {
     margin-top: 250px;
     width: 800px;
@@ -373,7 +377,7 @@ body {
 
   .aboutMe2 {
     flex-direction: column;
-    height: 1200px;
+    height: 1050px;
     justify-content: unset;
   }
 
@@ -409,6 +413,14 @@ body {
 } 
 
 @media screen and (max-width: 1000px) {
+  .aboutMe1 {
+    height: 800px; 
+  }
+
+  .aboutMe2 {
+    height: 1100px;
+  }
+  
   .descriptionText {
     width: 600px; 
   }
@@ -427,8 +439,12 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  .aboutMe1 {
+    height: 800px; 
+  }
+
   .aboutMe2 {
-    height: 1300px;
+    height: 1200px;
   }
 
   .descriptionText {
@@ -436,7 +452,7 @@ body {
   }
 
   .aboutMeD {
-    height: 400px;
+    height: 600px;
   }
 
   .introductionA {
@@ -450,7 +466,6 @@ body {
   .socialMediaLinks {
     width: 500px; 
   }
-
 }
 
 
@@ -478,7 +493,7 @@ body {
 
   .aboutMe2 {
     flex-direction: column;
-    height: 1400px;
+    height: 1300px;
     justify-content: unset;
   }
 
@@ -515,6 +530,7 @@ body {
   .descriptionText {
     width: 400px;
     font-size: 16px;
+
   }
 }
 
