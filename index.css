@@ -119,7 +119,7 @@ body {
   /* justify-content: center; */
   width: 100%;
   height: 900px;
-  background-image: url('assets/images/background_img.PNG');
+  background-image: url('assets/images/background_img2.PNG');
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
